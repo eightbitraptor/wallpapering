@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Wallpapering::VERSION
   gem.authors       = ["Matt House"]
   gem.email         = ["matt@eightbitraptor.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Wallpapering is a simple decorator pattern implementation}
+  gem.summary       = %q{Implements the decorator pattern in Ruby, as simply as possible}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
