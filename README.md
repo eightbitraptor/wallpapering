@@ -30,12 +30,9 @@ to create a Decorator just do the following:
 
     coffee_with_sugar = WithSugar.new(Coffee.new))
 
-You can also easily decorate an array of objects (useful with ActiveRecord finders)
+You can also easily decorate an array of objects
 
-    # app/controllers/posts_controller.rb
-    def index
-      @posts = Post.all.map_as(PostPresenter) # Returns an array of Presented Posts!
-    end
+    @posts.map_as(PostPresenter) # Returns an array of Presented Posts!
 
 ## Contributing
 
