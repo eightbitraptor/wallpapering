@@ -1,3 +1,3 @@
-module Wallpaper
+module Wallpapering
   VERSION = "0.0.1"
 end

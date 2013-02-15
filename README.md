@@ -1,12 +1,12 @@
-# Wallpaper
+# Wallpapering
 
-Wallpaper is a really simple implementation of the decorator pattern for use in Rails applications
+Wallpapering is a really simple implementation of the decorator pattern for use in Rails applications
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'wallpaper'
+    gem 'wallpapering'
 
 And then execute:
 
@@ -14,15 +14,15 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install wallpaper
+    $ gem install wallpapering
 
 ## Usage
 
-Basic Decorators are classes that inherit from `Wallpaper::Decorator`. They accept an object to decorate as the single argument for the initializer. They maintain the interface of the decorated object and are entirely transparent. You can add (and remove) methods if you wish, you can override methods - super will do what you expect.
+Basic Decorators are classes that inherit from `Wallpapering::Decorator`. They accept an object to decorate as the single argument for the initializer. They maintain the interface of the decorated object and are entirely transparent. You can add (and remove) methods if you wish, you can override methods - super will do what you expect.
 
 to create a Decorator just do the following:
 
-    class WithSugar < Wallpaper::Decorator
+    class WithSugar < Wallpapering::Decorator
       def calories
         super + 50
       end
@@ -36,7 +36,7 @@ You can also easily decorate an array of objects
 
 ## Contributing
 
-Basic contribution guidelines are as follows. I'm always amenable to patches and pull requests however please bear in mind that Wallpaper is designed to be pretty much the simplest thing that can work. Also no patches will be accepted without accompanying tests. Thanks :)
+Basic contribution guidelines are as follows. I'm always amenable to patches and pull requests however please bear in mind that wallpapering is designed to be pretty much the simplest thing that can work. Also no patches will be accepted without accompanying tests. Thanks :)
 
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)

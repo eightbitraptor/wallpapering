@@ -1,6 +1,6 @@
-require 'wallpaper'
+require 'wallpapering'
 
-module Wallpaper
+module Wallpapering
   describe "inheriting from decorator" do
     class FooDecorator < Decorator
       def normal_method

@@ -1,4 +1,4 @@
-module Wallpaper
+module Wallpapering
   class Decorator < SimpleDelegator
     def class
       __getobj__.class

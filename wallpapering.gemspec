@@ -1,11 +1,11 @@
 # -*- encoding: utf-8 -*-
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'wallpaper/version'
+require 'wallpapering/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "wallpaper"
-  gem.version       = Wallpaper::VERSION
+  gem.name          = "wallpapering"
+  gem.version       = Wallpapering::VERSION
   gem.authors       = ["Matt House"]
   gem.email         = ["matt@eightbitraptor.com"]
   gem.description   = %q{TODO: Write a gem description}
