@@ -1,4 +1,4 @@
-require_relative '../../../lib/core_ext/array'
+require_relative '../../../../lib/wallpapering/core_ext/array'
 
 describe Array do
   class Foo

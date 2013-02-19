@@ -1,6 +1,6 @@
 require "delegate"
 
-require "core_ext/array"
+require "wallpapering/core_ext/array"
 
 require "wallpapering/version"
 require "wallpapering/decorator"
