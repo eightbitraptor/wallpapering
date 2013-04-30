@@ -34,4 +34,12 @@ module Wallpapering
       expect(subject.class).to be(Object)
     end
   end
+
+  describe ".to_proc" do
+    it "allows Decorator to be passed as a proc" do
+      [1, 2, 3].map(&FooDecorator).each do |element|
+        element.should be_a FooDecorator
+      end
+    end
+  end
 end
