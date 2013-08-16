@@ -2,6 +2,9 @@
 
 Wallpapering is a really simple implementation of the decorator pattern for use in Rails applications
 
+[![Build Status](https://travis-ci.org/eightbitraptor/wallpapering.png)](https://travis-ci.org/eightbitraptor/wallpapering)
+
+
 ## Installation
 
 Add this line to your application's Gemfile:
