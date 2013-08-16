@@ -5,7 +5,7 @@ module Wallpapering
     end
 
     def self.to_proc
-      proc { |object, *args| new(object, *args) }
+      ->(obj){ self.new(obj) }
     end
   end
 end
