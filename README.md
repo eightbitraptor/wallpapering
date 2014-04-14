@@ -36,7 +36,7 @@ to create a Decorator just do the following:
 
 You can also easily decorate an array of objects
 
-    @posts.map_as(PostPresenter) # Returns an array of Presented Posts!
+    @posts.map(&PostPresenter) # Returns an array of Presented Posts!
 
 ## Contributing
 
